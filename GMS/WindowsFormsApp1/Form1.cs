@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Gym_Mangement_System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,8 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            SearchMember s = new SearchMember();
+            s.Show();
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -29,13 +31,33 @@ namespace WindowsFormsApp1
 
         private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-
+           
         }
+        
 
         private void menuStrip1_ItemClicked_1(object sender, ToolStripItemClickedEventArgs e)
         {
-            addMember add = new addMember();
-            add.Show();
+           // addMember ad = new addMember();
+          //  ad.Show();
+        }
+        
+
+        private void menuStrip1_ItemClicked_2(object sender, ToolStripItemClickedEventArgs e)
+        {
+         //   Form4 ad = new Form4();
+          //  ad.Show();
+        }
+        void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            
+            addMember ad = new addMember();
+            ad.Show();
+        }
+
+        private void toolStripMenuItem2_Click_1(object sender, EventArgs e)
+        {
+            Form4 ad = new Form4();
+            ad.Show();
         }
     }
 }
