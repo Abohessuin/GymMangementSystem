@@ -90,7 +90,7 @@
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(226, 100);
             this.toolStripMenuItem3.Text = "Search member";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.Form1_Load);
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.searchmember);
             // 
             // toolStripMenuItem4
             // 

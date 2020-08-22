@@ -40,11 +40,12 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.InfoText;
-            this.button1.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(335, 194);
+            this.button1.Location = new System.Drawing.Point(391, 224);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 48);
+            this.button1.Size = new System.Drawing.Size(132, 55);
             this.button1.TabIndex = 0;
             this.button1.Text = "Find";
             this.button1.UseVisualStyleBackColor = false;
@@ -54,9 +55,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(421, -44);
+            this.label1.Location = new System.Drawing.Point(491, -51);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(1);
             this.label1.Size = new System.Drawing.Size(65, 17);
@@ -66,24 +68,27 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(279, 168);
+            this.textBox1.Location = new System.Drawing.Point(205, 194);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(378, 20);
+            this.textBox1.Size = new System.Drawing.Size(561, 23);
             this.textBox1.TabIndex = 2;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(103, 248);
+            this.dataGridView1.Location = new System.Drawing.Point(120, 286);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(554, 278);
+            this.dataGridView1.Size = new System.Drawing.Size(646, 321);
             this.dataGridView1.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(168, 168);
+            this.label2.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(120, 194);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 18);
             this.label2.TabIndex = 4;
@@ -92,18 +97,19 @@
             // 
             // SearchMember
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.ClientSize = new System.Drawing.Size(915, 647);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "SearchMember";
-            this.Padding = new System.Windows.Forms.Padding(3);
+            this.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SearchMember";
             this.Load += new System.EventHandler(this.SearchMember_Load);

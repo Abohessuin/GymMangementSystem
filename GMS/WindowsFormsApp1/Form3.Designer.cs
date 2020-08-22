@@ -48,7 +48,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(146, 201);
+            this.label1.Location = new System.Drawing.Point(117, 201);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 18);
@@ -74,7 +74,7 @@
             this.Delete.Text = "Delete";
             this.Delete.UseVisualStyleBackColor = false;
             // 
-            // Form3
+            // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -85,9 +85,9 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
-            this.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.Name = "Form3";
+            this.Name = "Form4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
