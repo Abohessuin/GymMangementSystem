@@ -20,8 +20,8 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            SearchMember s = new SearchMember();
-            s.Show();
+          //  SearchMember s = new SearchMember();
+         //   s.Show();
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -58,6 +58,12 @@ namespace WindowsFormsApp1
         {
             Form4 ad = new Form4();
             ad.Show();
+        }
+
+        private void searchmember(object sender, EventArgs e)
+        {
+              SearchMember s = new SearchMember();
+               s.Show();
         }
     }
 }
