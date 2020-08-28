@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hassankh\\Source\\Repos\\GymMangementSystem1\\GMS\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {}
+    "C:\\Users\\lenovo\\Desktop\\New folder (2)\\GymMangementSystem\\GMS\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hassankh\\Source\\Repos\\GymMangementSystem1\\GMS\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\New folder (2)\\GymMangementSystem\\GMS\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hassankh\\Source\\Repos\\GymMangementSystem1\\GMS\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\New folder (2)\\GymMangementSystem\\GMS\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
         "projectName": "WindowsFormsApp1",
-        "projectPath": "C:\\Users\\Hassankh\\Source\\Repos\\GymMangementSystem1\\GMS\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
-        "packagesPath": "C:\\Users\\Hassankh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hassankh\\Source\\Repos\\GymMangementSystem1\\GMS\\WindowsFormsApp1\\obj\\",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\New folder (2)\\GymMangementSystem\\GMS\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\New folder (2)\\GymMangementSystem\\GMS\\WindowsFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hassankh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

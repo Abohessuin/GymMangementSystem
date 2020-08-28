@@ -63,9 +63,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pexels_lukas_669578 {
+        internal static System.Drawing.Bitmap pexels_lukas_669576 {
             get {
-                object obj = ResourceManager.GetObject("pexels-lukas-669578", resourceCulture);
+                object obj = ResourceManager.GetObject("pexels-lukas-669576", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
