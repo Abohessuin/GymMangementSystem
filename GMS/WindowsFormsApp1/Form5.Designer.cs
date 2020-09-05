@@ -70,7 +70,6 @@
             this.label2.Size = new System.Drawing.Size(118, 23);
             this.label2.TabIndex = 1;
             this.label2.Text = "Last name:";
-       
             // 
             // label3
             // 
@@ -126,7 +125,6 @@
             this.fn.Name = "fn";
             this.fn.Size = new System.Drawing.Size(250, 27);
             this.fn.TabIndex = 6;
-
             // 
             // ln
             // 
@@ -134,7 +132,6 @@
             this.ln.Name = "ln";
             this.ln.Size = new System.Drawing.Size(250, 27);
             this.ln.TabIndex = 7;
-            
             // 
             // pptb
             // 
@@ -142,7 +139,6 @@
             this.pptb.Name = "pptb";
             this.pptb.Size = new System.Drawing.Size(250, 27);
             this.pptb.TabIndex = 8;
-            
             // 
             // dttb
             // 
@@ -238,7 +234,7 @@
             this.Name = "Newmember";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "addmember1";
-         
+            this.Load += new System.EventHandler(this.Newmember_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
