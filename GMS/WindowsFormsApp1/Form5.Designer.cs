@@ -142,6 +142,8 @@
             // 
             // dttb
             // 
+            this.dttb.CustomFormat = "dd/MM/yyyy";
+            this.dttb.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dttb.Location = new System.Drawing.Point(149, 157);
             this.dttb.Name = "dttb";
             this.dttb.Size = new System.Drawing.Size(250, 27);
@@ -149,6 +151,8 @@
             // 
             // edtb
             // 
+            this.edtb.CustomFormat = "dd/MM/yyyy";
+            this.edtb.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.edtb.Location = new System.Drawing.Point(1006, 157);
             this.edtb.Name = "edtb";
             this.edtb.Size = new System.Drawing.Size(250, 27);
