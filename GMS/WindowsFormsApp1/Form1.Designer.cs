@@ -59,6 +59,7 @@
             this.menuStrip2.Size = new System.Drawing.Size(1352, 106);
             this.menuStrip2.TabIndex = 0;
             this.menuStrip2.Text = "menuStrip1";
+            this.menuStrip2.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip2_ItemClicked);
             // 
             // toolStripMenuItem1
             // 
@@ -122,6 +123,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
