@@ -70,7 +70,6 @@
             this.label2.Size = new System.Drawing.Size(118, 23);
             this.label2.TabIndex = 1;
             this.label2.Text = "Last name:";
-       
             // 
             // label3
             // 
@@ -126,7 +125,6 @@
             this.fn.Name = "fn";
             this.fn.Size = new System.Drawing.Size(250, 27);
             this.fn.TabIndex = 6;
-
             // 
             // ln
             // 
@@ -134,7 +132,6 @@
             this.ln.Name = "ln";
             this.ln.Size = new System.Drawing.Size(250, 27);
             this.ln.TabIndex = 7;
-            
             // 
             // pptb
             // 
@@ -142,10 +139,11 @@
             this.pptb.Name = "pptb";
             this.pptb.Size = new System.Drawing.Size(250, 27);
             this.pptb.TabIndex = 8;
-            
             // 
             // dttb
             // 
+            this.dttb.CustomFormat = "dd/MM/yyyy";
+            this.dttb.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dttb.Location = new System.Drawing.Point(149, 157);
             this.dttb.Name = "dttb";
             this.dttb.Size = new System.Drawing.Size(250, 27);
@@ -153,6 +151,8 @@
             // 
             // edtb
             // 
+            this.edtb.CustomFormat = "dd/MM/yyyy";
+            this.edtb.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.edtb.Location = new System.Drawing.Point(1006, 157);
             this.edtb.Name = "edtb";
             this.edtb.Size = new System.Drawing.Size(250, 27);
@@ -238,7 +238,7 @@
             this.Name = "Newmember";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "addmember1";
-         
+            this.Load += new System.EventHandler(this.Newmember_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
