@@ -44,7 +44,7 @@ namespace Gym_Mangement_System
 
             con.ConnectionString = "Data Source=DESKTOP-GIQC5E8;Initial Catalog=gym;Integrated Security=True";
             con.Open();
-            string k = "select * from gymtable where id = " + textBox1.Text + "";
+            string k = "select * from gymtable where firstname = " + "'"+ textBox1.Text + "'";
             SqlCommand cmd = new SqlCommand(k, con);
             cmd.ExecuteNonQuery();
             DataTable dt = new DataTable();

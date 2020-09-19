@@ -89,12 +89,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(137, 259);
+            this.label2.Location = new System.Drawing.Point(83, 262);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 22);
+            this.label2.Size = new System.Drawing.Size(118, 22);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Enter ID";
+            this.label2.Text = "Enter Name";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // SearchMember
