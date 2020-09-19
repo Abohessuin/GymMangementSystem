@@ -18,13 +18,13 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             string fname = fn.Text;
-            string lname = ln.Text;
+           // string lname = ln.Text;
             string startd = dttb.Text;
             string endd = edtb.Text;
             string Prise = pptb.Text;
 
             string mobilen = mntb.Text;
-            string id = idtb.Text;
+          //  string id = idtb.Text;
 
 
 
@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
            
             con.ConnectionString = "Data Source=DESKTOP-GIQC5E8;Initial Catalog=gym;Integrated Security=True";
             con.Open();
-            string k = "insert into gymtable (id,firstname,lastname,startdate,enddate,mobile,price) values('" + id + "','" + fname + "','" + lname + "','" + startd + "','" + endd + "','" + mobilen + "','" + Prise + "')";
+            string k = "insert into gymtable (firstname,startdate,enddate,mobile,price) values("   + "'" + fname + "','"  + startd + "','" + endd + "','" + mobilen + "','" + Prise + "')";
             SqlCommand cmd = new SqlCommand(k,con);
             //string h= "insert into gymtable (id,firstname,lastname,startdate,enddate,mobile,price) values(" + id + "," + fname + "," + lname + "," + startd + "," + endd + "," + mobilen + "," + Prise + ")";
             //cmd.CommandText = "insert into gymtable (id,firstname,lastname,startdate,enddate,mobile,price) values('" + id + "','" + fname + "','" + lname + "','" + startd + "','" + endd + "','" + mobilen + "','" + Prise + "')";
@@ -57,12 +57,12 @@ namespace WindowsFormsApp1
         private void button2_Click(object sender, EventArgs e)
         {
            fn.Clear();
-            ln.Clear();
+            
             pptb.Clear();
            edtb.ResetText();
            dttb.ResetText();
            mntb.Clear();
-            idtb.Clear();
+          
         }
 
         private void Newmember_Load(object sender, EventArgs e)

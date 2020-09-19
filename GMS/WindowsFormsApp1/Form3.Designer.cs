@@ -53,9 +53,9 @@
             this.label1.Location = new System.Drawing.Point(117, 201);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 22);
+            this.label1.Size = new System.Drawing.Size(118, 22);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Enter ID";
+            this.label1.Text = "Enter Name";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1

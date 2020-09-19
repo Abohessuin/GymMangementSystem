@@ -35,6 +35,7 @@
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,11 +53,11 @@
             this.toolStripMenuItem3,
             this.toolStripMenuItem4});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip2.MaximumSize = new System.Drawing.Size(5000, 5000);
+            this.menuStrip2.MaximumSize = new System.Drawing.Size(5625, 5000);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Padding = new System.Windows.Forms.Padding(15, 3, 0, 3);
+            this.menuStrip2.Padding = new System.Windows.Forms.Padding(17, 3, 0, 3);
             this.menuStrip2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.menuStrip2.Size = new System.Drawing.Size(1352, 106);
+            this.menuStrip2.Size = new System.Drawing.Size(1521, 106);
             this.menuStrip2.TabIndex = 0;
             this.menuStrip2.Text = "menuStrip1";
             this.menuStrip2.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip2_ItemClicked);
@@ -110,18 +111,35 @@
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "new member";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Symbol", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button1.Location = new System.Drawing.Point(14, 384);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(218, 129);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "DeletedList";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1352, 525);
+            this.ClientSize = new System.Drawing.Size(1521, 525);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip2);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Font = new System.Drawing.Font("Segoe UI Symbol", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.MainMenuStrip = this.menuStrip2;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "DeletedList";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip2.ResumeLayout(false);
@@ -139,6 +157,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.Button button1;
     }
 }
 
